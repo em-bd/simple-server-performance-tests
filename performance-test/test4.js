@@ -49,7 +49,7 @@ const cpuMonitor = setInterval(() => {
 
 const instance = autocannon({
     url: 'http://localhost:3000/my_facilities',
-    connections: 20,
+    connections: 40,
     duration: 10,
     pipelining: 1,
 })

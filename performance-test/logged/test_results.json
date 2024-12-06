@@ -1,26 +1,58 @@
 [
   {
-    "Throughput": "69.6 req/sec",
-    "95th Percentile Latency": "5669ms",
-    "Error Rate": "5.028735632183908%",
-    "Peak Memory Usage": "56.66 MB",
-    "Peak CPU Usage": "1.80%",
-    "Duration": "10s"
-  },
-  {
-    "Throughput": "70.1 req/sec",
-    "95th Percentile Latency": "8328ms",
-    "Error Rate": "7.275320970042796%",
-    "Peak Memory Usage": "57.21 MB",
-    "Peak CPU Usage": "1.80%",
-    "Duration": "10s"
-  },
-  {
-    "Throughput": "68.67 req/sec",
-    "95th Percentile Latency": "607ms",
+    "Throughput": "71 req/sec",
+    "95th Percentile Latency": "257ms",
     "Error Rate": "0%",
-    "Peak Memory Usage": "54.58 MB",
+    "Peak Memory Usage": "54.77 MB",
+    "Peak CPU Usage": "1.81%",
+    "Duration": "10s"
+  },
+  {
+    "Throughput": "63.5 req/sec",
+    "95th Percentile Latency": "680ms",
+    "Error Rate": "0%",
+    "Peak Memory Usage": "54.38 MB",
+    "Peak CPU Usage": "1.81%",
+    "Duration": "10s"
+  },
+  {
+    "Throughput": "62.3 req/sec",
+    "95th Percentile Latency": "3039ms",
+    "Error Rate": "6.260032102728733%",
+    "Peak Memory Usage": "55.59 MB",
+    "Peak CPU Usage": "1.81%",
+    "Duration": "10s"
+  },
+  {
+    "Throughput": "59 req/sec",
+    "95th Percentile Latency": "4107ms",
+    "Error Rate": "6.101694915254238%",
+    "Peak Memory Usage": "55.57 MB",
+    "Peak CPU Usage": "1.81%",
+    "Duration": "10s"
+  },
+  {
+    "Throughput": "57.8 req/sec",
+    "95th Percentile Latency": "5928ms",
+    "Error Rate": "5.536332179930796%",
+    "Peak Memory Usage": "56.28 MB",
+    "Peak CPU Usage": "1.81%",
+    "Duration": "10s"
+  },
+  {
+    "Throughput": "13.7 req/sec",
+    "95th Percentile Latency": "1000ms",
+    "Error Rate": "0%",
+    "Peak Memory Usage": "58.95 MB",
     "Peak CPU Usage": "1.80%",
-    "Duration": "30s"
+    "Duration": "10s"
+  },
+  {
+    "Throughput": "11.1 req/sec",
+    "95th Percentile Latency": "2921ms",
+    "Error Rate": "27.027027027027028%",
+    "Peak Memory Usage": "58.97 MB",
+    "Peak CPU Usage": "1.80%",
+    "Duration": "10s"
   }
 ]

@@ -27,7 +27,7 @@ function logToFile(data) {
 
 const instance = autocannon({
     url: 'http://localhost:3000/my_facilities',
-    connections: 50,
+    connections: 10,
     duration: 10,
     pipelining: 1,
 });

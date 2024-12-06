@@ -49,8 +49,8 @@ const cpuMonitor = setInterval(() => {
 
 const instance = autocannon({
     url: 'http://localhost:3000/my_facilities',
-    connections: 20,
-    duration: 30,
+    connections: 30,
+    duration: 10,
     pipelining: 1,
 })
 
@@ -64,7 +64,7 @@ instance.on('done', (result) => {
         'Error Rate': ((result.errors / result.requests.total) * 100) + '%',
         'Peak Memory Usage': (peakMemory / (1024 * 1024)).toFixed(2) + ' MB',
         'Peak CPU Usage': peakCPU.toFixed(2) + '%',
-        'Duration': '30s',
+        'Duration': '10s',
     }
 
     console.log(logResult)

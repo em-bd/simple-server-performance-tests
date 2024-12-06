@@ -25,6 +25,26 @@ function logToFile(data) {
     })
 }
 
+const instance = autocannon({
+    url: 'http://localhost:3000',
+    connections: 50,
+    duration: 10,
+    pipelining: 1,
+    requests: [
+            {
+            method: 'POST',
+            path: '/', // login attempt
+            body: JSON.stringify({
+                username: 'admin@simple.org',
+                password: 'Resolve2SaveLives'
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }
+    ]
+});
+
 let peakMemory = 0
 
 const memoryMonitor = setInterval(() => {
@@ -46,13 +66,6 @@ const cpuMonitor = setInterval(() => {
     const avgCPUUsage = totalCPUUsage / cpus.length
     peakCPU = Math.max(peakCPU, avgCPUUsage)
 }, 1000)
-
-const instance = autocannon({
-    url: 'http://localhost:3000/my_facilities',
-    connections: 20,
-    duration: 10,
-    pipelining: 1,
-})
 
 instance.on('done', (result) => {
     clearInterval(memoryMonitor)

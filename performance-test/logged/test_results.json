@@ -1,0 +1,26 @@
+[
+  {
+    "Throughput": "69.6 req/sec",
+    "95th Percentile Latency": "5669ms",
+    "Error Rate": "5.028735632183908%",
+    "Peak Memory Usage": "56.66 MB",
+    "Peak CPU Usage": "1.80%",
+    "Duration": "10s"
+  },
+  {
+    "Throughput": "70.1 req/sec",
+    "95th Percentile Latency": "8328ms",
+    "Error Rate": "7.275320970042796%",
+    "Peak Memory Usage": "57.21 MB",
+    "Peak CPU Usage": "1.80%",
+    "Duration": "10s"
+  },
+  {
+    "Throughput": "68.67 req/sec",
+    "95th Percentile Latency": "607ms",
+    "Error Rate": "0%",
+    "Peak Memory Usage": "54.58 MB",
+    "Peak CPU Usage": "1.80%",
+    "Duration": "30s"
+  }
+]
